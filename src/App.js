@@ -39,7 +39,7 @@ function App() {
         <Title />
       </header>
       <main>
-        <RecipeList />
+        <RecipeList cakes={cakes} />
         <Search />
         <CakeForm />
       </main>
