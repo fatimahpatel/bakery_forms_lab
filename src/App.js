@@ -31,6 +31,11 @@ function App() {
 
   ]);
 
+  const addNewCake = (newCake) =>{
+    setCakes([...cakes, newCake]);
+  }
+
+
 
   return (
     <>
@@ -41,7 +46,7 @@ function App() {
       <main>
         <RecipeList cakes={cakes} />
         <Search />
-        <CakeForm />
+        <CakeForm addNewCake = {addNewCake}/>
       </main>
     </>
   );
