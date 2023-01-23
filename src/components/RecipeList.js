@@ -1,6 +1,5 @@
 const RecipeList = ({cakes}) => {
 
-
     return (
         <>
             <section>
